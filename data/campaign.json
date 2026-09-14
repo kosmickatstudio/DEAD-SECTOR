@@ -1,0 +1,50 @@
+{
+  "title": "DEAD SECTOR",
+  "version": "0.1.0",
+  "chapters": [
+    {"name":"ACT I // THE HELIX EVENT","missions":[
+      {"id":1,"title":"The Broadcast","location":"Civic Relay Station","objective":"Reach the transmitter and recover the emergency signal","primary":"Mara Voss","threats":["Hollow","Listener"]},
+      {"id":2,"title":"No Evacuation","location":"South Shelter","objective":"Find the missing response team","primary":"Mara Voss","threats":["Hollow","Crawler"]},
+      {"id":3,"title":"Red Hall","location":"Children's Ward","objective":"Restore emergency power","primary":"Mara Voss","threats":["Listener","Mimic"]},
+      {"id":4,"title":"Blackwater","location":"Checkpoint Nine","objective":"Cross the quarantine line","primary":"Mara Voss","threats":["Brute","Hollow"]},
+      {"id":5,"title":"Dead Frequency","location":"Signal Hill","objective":"Trace the second transmission","primary":"Elias Kane","threats":["Listener","Hollow"]},
+      {"id":6,"title":"Underpass","location":"East Transit","objective":"Open the floodgate","primary":"Mara Voss","threats":["Crawler","Brute"]},
+      {"id":7,"title":"Glasshouse","location":"Municipal Conservatory","objective":"Recover a HELIX sample","primary":"Elias Kane","threats":["Bloom","Mimic"]},
+      {"id":8,"title":"Quiet Room","location":"Clinical Annex","objective":"Locate Patient Zero records","primary":"Elias Kane","threats":["Listener","Mimic"]},
+      {"id":9,"title":"Burn Line","location":"Western Containment","objective":"Survive the sterilization cycle","primary":"Mara Voss","threats":["Brute","Bloom"]}
+    ]},
+    {"name":"ACT II // DEAD FREQUENCY","missions":[
+      {"id":10,"title":"Sublevel Four","location":"Helix Research","objective":"Enter the sealed laboratory","primary":"Mara Voss","threats":["Hollow","Brute"]},
+      {"id":11,"title":"The Warden","location":"Security Core","objective":"Disable the containment commander","primary":"Mara Voss","boss":"Warden"},
+      {"id":12,"title":"Cold Storage","location":"Research Vaults","objective":"Recover the frozen sample","primary":"Elias Kane","threats":["Crawler","Listener"]},
+      {"id":13,"title":"False Safehouse","location":"North District","objective":"Expose the counterfeit evacuation site","primary":"Elias Kane","threats":["Mimic","Hollow"]},
+      {"id":14,"title":"Signal Room","location":"Relay Tower","objective":"Decrypt the HELIX carrier wave","primary":"Elias Kane","threats":["Listener"]},
+      {"id":15,"title":"Red Rain","location":"Industrial Basin","objective":"Reach the pumping station","primary":"Mara Voss","threats":["Brute","Bloom"]},
+      {"id":16,"title":"The Flooded Mile","location":"Lower Metro","objective":"Power the emergency train","primary":"Mara Voss","threats":["Crawler","Hollow"]},
+      {"id":17,"title":"Witness","location":"News Archive","objective":"Recover the original HELIX testimony","primary":"Elias Kane","threats":["Mimic","Listener"]},
+      {"id":18,"title":"Pressure Door","location":"Deep Access","objective":"Open the hydraulic vault","primary":"Mara Voss","threats":["Brute"]}
+    ]},
+    {"name":"ACT III // HELIX","missions":[
+      {"id":19,"title":"Patient Zero","location":"Quiet Laboratory","objective":"Confirm the identity of Patient Zero","primary":"Elias Kane","threats":["Bloom","Mimic"]},
+      {"id":20,"title":"Bloommother","location":"Bio-Garden","objective":"Destroy the reproductive core","primary":"Mara Voss","boss":"Bloommother"},
+      {"id":21,"title":"Memory Leak","location":"Neural Archive","objective":"Recover erased patient memories","primary":"Elias Kane","threats":["Listener","Mimic"]},
+      {"id":22,"title":"Blackout","location":"Power Spine","objective":"Restore citywide power","primary":"Mara Voss","threats":["Brute","Hollow"]},
+      {"id":23,"title":"Redacted","location":"Corporate Tower","objective":"Find the HELIX board minutes","primary":"Elias Kane","threats":["Mimic"]},
+      {"id":24,"title":"Core Breach","location":"Sublevel Six","objective":"Seal the containment rupture","primary":"Mara Voss","threats":["Bloom","Brute"]},
+      {"id":25,"title":"Last Camera","location":"Broadcast Array","objective":"Transmit proof to the outside world","primary":"Elias Kane","threats":["Listener","Hollow"]},
+      {"id":26,"title":"Night Shift","location":"Emergency Hospital","objective":"Cross the dark ward","primary":"Mara Voss","threats":["Hollow","Crawler"]},
+      {"id":27,"title":"The Colossus","location":"Service Cathedral","objective":"Defeat the evolved host","primary":"Mara Voss","boss":"Colossus"}
+    ]},
+    {"name":"ACT IV // DEAD SECTOR","missions":[
+      {"id":28,"title":"Burn the Files","location":"Helix Repository","objective":"Destroy the remaining experiment records","primary":"Elias Kane","threats":["Mimic","Listener"]},
+      {"id":29,"title":"Second Outbreak","location":"Outer Ring","objective":"Contain the new emergence","primary":"Mara Voss","threats":["Bloom","Brute"]},
+      {"id":30,"title":"Last Vehicle","location":"Freeway Interchange","objective":"Reach the extraction convoy","primary":"Mara Voss","threats":["Crawler","Hollow"]},
+      {"id":31,"title":"Open Channel","location":"Radio Mast","objective":"Choose the final broadcast","primary":"Elias Kane","threats":["Listener"]},
+      {"id":32,"title":"The Truth","location":"Central Helix","objective":"Enter the neural core","primary":"Mara Voss","threats":["Brute","Bloom"]},
+      {"id":33,"title":"The Host","location":"Helix Core","objective":"Survive the first phase","primary":"Mara Voss","boss":"HELIX Host"},
+      {"id":34,"title":"No Silence","location":"Helix Core","objective":"Destroy or expose the source","primary":"Mara Voss","boss":"HELIX Host Phase II"},
+      {"id":35,"title":"Dead Sector","location":"Core Chamber","objective":"Make the final choice","primary":"Mara Voss","special":"ending_choice"},
+      {"id":36,"title":"Last Transmission","location":"The City","objective":"Live with the truth","primary":"Mara Voss","special":"ending"}
+    ]}
+  ]
+}
