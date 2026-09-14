@@ -1,0 +1,30 @@
+{
+  "weapons": {
+    "service_pistol": {"magazine":8,"reserve_cap":80,"damage":20,"critical_multiplier":2.7,"reload_seconds":0.9,"role":"precision"},
+    "pump_shotgun": {"magazine":5,"reserve_cap":30,"damage":52,"critical_multiplier":1.7,"reload_seconds":1.35,"role":"crowd_control"},
+    "burst_carbine": {"magazine":18,"reserve_cap":108,"damage":16,"critical_multiplier":2.2,"reload_seconds":1.1,"role":"pressure"},
+    "field_baton": {"damage":32,"reach":72,"cooldown":0.55,"role":"silent_fallback"}
+  },
+  "enemies": {
+    "Hollow": {"hp":36,"speed":34,"damage":8,"ability":"basic_hunt"},
+    "Listener": {"hp":44,"speed":27,"damage":8,"ability":"sound_alert"},
+    "Crawler": {"hp":50,"speed":45,"damage":9,"ability":"low_profile"},
+    "Brute": {"hp":150,"speed":22,"damage":18,"ability":"armor_and_charge"},
+    "Mimic": {"hp":64,"speed":30,"damage":12,"ability":"environmental_disguise"},
+    "Bloom": {"hp":74,"speed":18,"damage":15,"ability":"spore_zone"}
+  },
+  "bosses": {
+    "Warden": {"phases":3,"weakness":"power_cells","arena":"security_core"},
+    "Bloommother": {"phases":3,"weakness":"central_pod","arena":"bio_garden"},
+    "Colossus": {"phases":3,"weakness":"exposed_joints","arena":"service_cathedral"},
+    "HELIX Host": {"phases":4,"weakness":"neural_nodes","arena":"helix_core"}
+  },
+  "upgrades": [
+    {"id":"pistol_stability","cost":120,"effect":"reduce_reticle_spread"},
+    {"id":"field_medkit","cost":160,"effect":"increase_heal_amount"},
+    {"id":"reload_training","cost":190,"effect":"reduce_reload_time"},
+    {"id":"armor_insert","cost":260,"effect":"reduce_incoming_damage"},
+    {"id":"camera_amp","cost":220,"effect":"increase_evidence_scan_range"}
+  ],
+  "save_station": {"name":"FIELD RELAY","functions":["save","heal","buy_ammo","buy_health","upgrade"]}
+}
